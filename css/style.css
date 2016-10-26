@@ -115,9 +115,9 @@ header nav a.active{
 }
 .modalDialog > div{
 
-	width: 400px;
+	width: 992px;
 	position: relative;
-	margin: 10% auto;
+	margin: 3% auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
 	background: #fff;
@@ -133,7 +133,7 @@ header nav a.active{
 	position: absolute;
 	right: -12px;
 	text-align: center;
-	top: -10px;
+	top: -5px;
 	width: 24px;
 	text-decoration: none;
 	font-weight: bold;
@@ -181,6 +181,13 @@ header nav a.active{
 	color: #666;
 	padding: 10px;
 }
+#contacto .box{
+	display: inline-block;
+	text-align: center;
+	width: 45%;
+	margin: 1%;
+	background-color: white;
+}
 #contacto{
 	background-position: center;
 	background-repeat:no-repeat;
@@ -220,6 +227,7 @@ section{
 }
 section h2{
 	font-size: 32px;
+	font-weight: bold;
 	text-align: center;
 	margin-bottom: 25px;
 }
@@ -228,3 +236,18 @@ section h2{
 	margin-left: auto;
 	margin-right: auto;
 }
+#Institucional .container{
+	width: 750px;
+	margin: auto;
+
+}
+#social .container{
+	width: 750px;
+	margin: auto;
+
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
