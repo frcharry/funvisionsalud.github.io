@@ -14,8 +14,8 @@ header{
 	position: fixed;
 	padding: 10px 0;
 	width: 100%;
-	/*background-color: rgba(48, 48, 48, 0.5);*/
-	background-color: #FFFFFF;
+	background-color: rgba(48, 48, 48, 0.5);
+	/*background-color: #FFFFFF;*/
 
 }
 header img{
@@ -26,7 +26,8 @@ header nav{
 	margin-top: 10px;
 }
 header nav a{
-	color:#004522;
+	/*color:#004522;*/
+	color: white;
 	font-weight: bold;
 	text-decoration: none;
 	margin-left: 10px;
@@ -39,7 +40,7 @@ header nav a.active{
 }
 #home{
 	text-align: center;
-	padding: 200px 0 150px;
+	padding: 150px 0 150px;
 }
 #home h1{
 	color: #FFFFFF;
@@ -87,7 +88,6 @@ header nav a.active{
 #home .social a:hover{
 	background-color: #D8D9D9;
 }
-
 #servicios .box{
 	display: inline-block;
 	text-align: center;
@@ -166,11 +166,15 @@ header nav a.active{
 /*#Alianzas{
 	background-color: whitesmoke;
 }*/
+#Alianzas div{
+	padding-right: 0;
+	margin-right: 0;
+}
 #Alianzas .box{
-	display: inline-block;
+	display: inline-table;
 	text-align: center;
-	width: 31%;
-	margin: 1%;
+	width: 18%;
+	margin: 2%;
 	background-color: white;
 }
 #Alianzas .box img{
@@ -204,16 +208,6 @@ header nav a.active{
 	padding: 20px;
 	width: 400px;
 }
-#contacto button{
-	background-color: #fed136;
-	padding: 20px 40px;
-	border-color: #fed136;
-	border-radius: 3px;
-	color: white;
-	font-size: 18px;
-	line-height: 1;
-	font-weight: bold;
-}
 #contacto form{
 	display: inline-block;
 }
@@ -232,7 +226,7 @@ section h2{
 	margin-bottom: 25px;
 }
 .container{
-	width: 992px;
+	width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
 }
