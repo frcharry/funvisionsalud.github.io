@@ -160,28 +160,24 @@ header nav a.active{
 	text-align: center;
 	padding: 30px 0;
 }
-#twitter{
-	
-}
-/*#Alianzas{
-	background-color: whitesmoke;
-}*/
-#Alianzas div{
+
+#alianzas div{
 	padding-right: 0;
 	margin-right: 0;
+	
 }
-#Alianzas .box{
+#alianzas .box{
 	display: inline-table;
 	text-align: center;
 	width: 18%;
 	margin: 2%;
 	background-color: white;
 }
-#Alianzas .box img{
+#alianzas .box img{
 	width: 100%;
 
 }
-#Alianzas .box p{
+#alianzas .box p{
 	color: #666;
 	padding: 10px;
 }

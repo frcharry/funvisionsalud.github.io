@@ -5,14 +5,20 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Fundacion Vision Salud</title>
-		<script src="https://use.fontawesome.com/2dbac93b7e.js"></script>
+		<!--jquery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- fuentes estilos etc-->
+		<script src="https://use.fontawesome.com/2dbac93b7e.js"></script>
 		<script src="js/app.js" type="text/javascript"></script>
 		<script src="js/twitter.js" type"text/javascript"></script>
 		<script src="js/MagnificPopUp.js" type="text/javascript"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/animatescroll.js" type="text/javascript"></script>
+		<!--bootstrap-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+		</script>
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+		<!--Estilos propios-->
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/MagnificPopup.css">
@@ -29,7 +35,8 @@
 					<nav>
 						<a href="#home" class="active">Home</a>
 						<a href="#servicios">Servicios</a>
-						<a href="#Alianzas">Alianzas Institucionales</a>
+						<a href="#noticias">Noticias</a>
+						<a href="#alianzas">Alianzas</a>
 						<a href="#contacto">Contacto</a>
 					</nav>
 				</div>
@@ -38,7 +45,7 @@
 			<section id="home" class="container">
 				<h1>APORTAMOS AL DESARROLLO <strong>SOSTENIBLE Y SUSTENTABLE</strong> DE LAS EMPRESAS Y LA SOCIEDAD</h1>
 				<!--div class="divider"></div-->
-				<button type="button" class="btn btn-success btn-lg"><a href="#servicios">Entérate cómo?</a></button>
+				<button type="button" class="btn btn-success btn-lg"><a href="#servicios" onclick="$('#servicios').animatescroll({scrollSpeed:1500});">Entérate cómo?</a></button>
 				<!--div class="social">
 					<a href=""><i class="fa fa-facebook"></i></a>
 					<a href=""><i class="fa fa-twitter"></i></a>
@@ -53,7 +60,7 @@
 			</div>
 			<P>Mediante un equipo <strong>profesional</strong> de consultores y asesores enfocado en la realización de proyectos y prestación de servicios en tres principales categorías:(Da clic en la imágen para mas información)</P>
 			<DIV class="box">
-				<a href="#Institucional"><img src="images/institucional.png" alt="Institucional"></a>
+				<a href="#Institucional"><img src="images/institucionales.jpg" alt="Institucional"></a>
 				<h3>INSTITUCIONALES</h3>
 			</DIV>
 			<div ID="Institucional" class="modalDialog">
@@ -95,7 +102,7 @@
 				</div>
 			</div>
 			<DIV class="box">
-				<a href="#social"><img src="images/social1.jpg" alt="Social"></a>
+				<a href="#social"><img src="images/sociales.jpg" alt="Social"></a>
 				<h3>SOCIALES</h3>
 			</DIV>
 			<div ID="social" class="modalDialog">
@@ -125,7 +132,7 @@
 				</div>
 			</div>
 			<DIV class="box">
-				<a href="#Educacion"><img src="images/educacion.jpg" alt="Educacion"></a>
+				<a href="#Educacion"><img src="images/Educacion1.jpg" alt="Educacion"></a>
 				<h3>EDUCACIÓN</h3>
 			</DIV>
 			<div ID="Educacion" class="modalDialog">
@@ -141,10 +148,14 @@
 				</div>
 			</div>
 		</section>
+		<section id="noticias" class="container">
+			<h2>NOTICIAS</h2>
+
+		</section>
 		<!--Alianzas Institucionales-->
-		<section id="Alianzas" class="container">
+		<section id="alianzas" class="container">
 			<h2>ALIANZAS INSTITUCIONALES</h2>
-			<div>
+			<div class="container">
 				<div class="box">
 					<img src="images/Asohosval.jpg" alt="Asociación de hospitales del Valle">
 				</div>
