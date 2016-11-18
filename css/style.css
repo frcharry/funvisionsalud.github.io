@@ -160,7 +160,18 @@ header nav a.active{
 	text-align: center;
 	padding: 30px 0;
 }
-
+#noticias{
+	display: inline;
+	position: relative;
+}
+#noticias .box{
+	display: inline-block;
+	width: 31%;
+	margin: auto;
+}
+#socialnetwork{
+	float: right;
+}
 #alianzas div{
 	padding-right: 0;
 	margin-right: 0;
