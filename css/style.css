@@ -50,9 +50,10 @@ header nav a.active{
 	margin-bottom: 40px;
 }
 #home .divider{
-	width: 80px;
-	border-top: 5px solid #fed136;
-	margin: 0 auto;
+	width: 160px;
+	border-top: 5px solid #ffffff;
+	margin: 7px auto; 
+	
 }
 #home button .btn-success .btn .btn-lg{
 	padding-top: 3px;
@@ -64,8 +65,11 @@ header nav a.active{
 	color: #ffffff;
 }
 #home p{
-	font-size: 24px;
-	margin-top: 2px;
+	
+	font-size: 18px;
+	padding-top: 5px;
+	font-style: italic;
+	
 }
 #home .social{
 	margin-top: 80px;
