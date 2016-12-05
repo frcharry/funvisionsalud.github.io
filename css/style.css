@@ -267,6 +267,12 @@ header nav a.active{
 	
 	
 }
+#experiencia h3{
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-left: 80px;
+	text-decoration: underline;
+}
 #cert6 img{
 	width: 180px;
 	height: 180px;
@@ -355,9 +361,4 @@ section #Institucional #social #educacion  .container{
       width: 70%;
       margin: auto;
   }
-h3{
-	padding-top: 5px;
-	padding-bottom: 10px;
-	margin-left: 80px;
-	text-decoration: underline;
-}
+
