@@ -4,6 +4,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="fundacion, vision, salud">
+		<meta name="description" content="pagina de la fundación vision salud">
 		<title>Fundacion Vision Salud</title>
 		<!--jquery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -12,6 +14,7 @@
 		<script src="js/app.js" type="text/javascript"></script>
 		<script src="js/twitter.js" type"text/javascript"></script>
 		<script src="js/MagnificPopUp.js" type="text/javascript"></script>
+		<script src="js/myjquery.js" type="text/javascript"></script>
 		<!--script src="js/fb.js" type"text/javascript"></script-->
 		<script src="js/animatescroll.js" type="text/javascript"></script>
 		<!--bootstrap-->
@@ -44,16 +47,16 @@
 					<nav>
 						<a href="#home" class="active">Home</a>
 						<a href="#servicios">Portafolio</a>
-						<a href="#servicios">Experiencia</a>
-						<a href="#noticias">Informativa</a>
+						<a href="#experiencia">Experiencia</a>
 						<a href="#alianzas">Alianzas</a>
+						<a href="#noticias">Informativa</a>
 						<a href="#contacto">Contacto</a>
 					</nav>
 				</div>
 			</header>
 			<!--Home-->			
 			<section id="home" class="container">
-				<h1>APORTAMOS AL DESARROLLO <strong>SOSTENIBLE Y SUSTENTABLE</strong> DE LAS EMPRESAS Y LA SOCIEDAD</h1>
+				<h1>APORTAMOS AL DESARROLLO <strong>SOSTENIBLE Y SUSTENTABLE</strong> <br>DE LAS EMPRESAS Y LA SOCIEDAD</h1>
 				<button type="button" class="btn btn-success btn-lg"><a href="#servicios" onclick="$('#servicios').animatescroll({scrollSpeed:1500});">Entérate cómo</a></button>
 				<div class="divider"></div>
 				<p>"Realizando Sueños de Vida"</p>
@@ -86,6 +89,7 @@
 					      	<li data-target="#institucionalCarousel" data-slide-to="1"></li>
 					      	<li data-target="#institucionalCarousel" data-slide-to="2"></li>
 					      	<li data-target="#institucionalCarousel" data-slide-to="3"></li>
+					      	<li data-target="#institucionalCarousel" data-slide-to="4"></li>
 					    	</ol>
 					    	<!--Wrapper for slides-->
 						    <div class="carousel-inner" role="listbox">
@@ -97,6 +101,9 @@
 						        </div>
 						        <div class="item">
 						    	    <img src="images/Institucional3-3.jpg" alt="Proyectos" width="460" height="645">
+						       	</div>
+						       	<div class="item">
+						       		<img src="images/Institucional4-4.jpg" alt="Proyectos Sociales" width="460" height="645">
 						       	</div>
 							</div>
 						    <!-- Left and right controls-->
@@ -122,15 +129,19 @@
 					<div class="container">
 						<br>
 						<div id="socialCarousel" class="carousel slide" data-ride="carousel">
+							<!--Indicators-->
 							<ol class="carousel-indicators">
-					      	<li data-target="#socialCrousel" data-slide-to="0" class="active"></li>
+					      		<li data-target="#socialCarousel" data-slide-to="0" class="active"></li>
+					      		<li data-target="#socialCarousel" data-slide-to="1"></li>
 					      	</ol>
-					      	<div class="carousel-inner" role="listbox">
-					      		<div class="item-active">
-									<img src="images/sociales1-1.jpg" alt="Proyectos Sociales" width="460" height="645">
-								</div>
-							</div>	
-							<a class="left carousel-control" href="#socialCarousel" role="button" data-slide="prev">
+					    	<!--Wrapper for slides-->
+						    <div class="carousel-inner" role="listbox">
+					    		<div class="item active">
+						        	<img src="images/Institucional4-4.jpg" alt="Asesorías y Consultorías" width="460" height="645">
+						        </div>
+						    </div>
+						    <!-- Left and right controls-->
+					    	<a class="left carousel-control" href="#socialCarousel" role="button" data-slide="prev">
 					      		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					      		<span class="sr-only">Previous</span>
 					    	</a>
@@ -143,57 +154,115 @@
 				</div>
 			</div>
 			<DIV class="box">
-				<a href="#Educacion"><img src="images/Educacion1.jpg" alt="Educacion"></a>
+				<a href="#educacion"><img src="images/Educacion1.jpg" alt="Educacion"></a>
 				<h3>EDUCACIÓN</h3>
 			</DIV>
-			<div ID="Educacion" class="modalDialog">
+			<div ID="educacion" class="modalDialog">
 				<div>
-					<a href="#close" Title="Close" class="close" >X</a>
-					<h2>Educación</h2>
-					<ul>
-						<LI>Asesorías</LI>
-						<LI>Programas de capacitación</LI>
-						<LI>Consultorías</LI>
-						<li>Acreditación en Salud</li>
-					</ul>					
+					<a href="#close" Title="Close" class="close">X</a>
+					<div class="container">
+						<br>
+						<div id="eduCarousel" class="carousel slide" data-ride="carousel">
+							<!--Indicators-->
+							<ol class="carousel-indicators">
+					      		<li data-target="#eduCarousel" data-slide-to="0" class="active"></li>
+					      		<li data-target="#eduCarousel" data-slide-to="1"></li>
+					      	</ol>
+					    	<!--Wrapper for slides-->
+						    <div class="carousel-inner" role="listbox">
+					    		<div class="item active">
+						        	<img src="images/educacion.jpg" alt="Oferta Educativa" width="460" height="645">
+						        </div>
+							</div>
+						    <!-- Left and right controls-->
+					    	<a class="left carousel-control" href="#eduCarousel" role="button" data-slide="prev">
+					      		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					      		<span class="sr-only">Previous</span>
+					    	</a>
+					    	<a class="right carousel-control" href="#eduCarousel" role="button" data-slide="next">
+				      			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					      		<span class="sr-only">Next</span>
+					    	</a>
+					    </div>
+					</div>		
 				</div>
 			</div>
 		</section>
-		<!--Noticias-->
-		<section id="noticias" class="container">
+		<!-- Experiencia -->
+		<section id= "experiencia" class="container">
 			<div class="page-header">
-				<h2>Informativa</h2>
+				<h2>Logros y  Experiencia</h2>
 			</div>
-			<div class="container">
-				<section class="col-sm-8">
-					<h3>Visión Informativa</h3>
-					<p>Conoce nuestras publicaciones del diario Visión Informativa, donde encontrarás noticias, artículos de interés, y demás información relevante.</p>
-						<div class="col-sm-4">
-							<p>Edición No. 26</p>
-							<object width="150" height="200" data="images/imgperiodicos/26.jpg">
-							</object>
-						</div>
-						<div class="col-sm-4">
-							<p>Edición No. 25</p>
-							<object width="150" height="200" data="images/imgperiodicos/25.png">
-							</object>
-						</div>
-						<div class="col-sm-4">
-							<p>Edición No. 24</p>
-							<object width="150" height="200" data="images/imgperiodicos/24.png">
-							</object>
-						</div>
-						<!--iframe width="600" height="500" src="https://www.youtube.com/embed/oI0LVaoGGtg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe-->
-				</section>
-				<aside class="col-sm-4">
-					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffundacion.visionsalud%2F%3Ffref%3Dts&tabs=timeline&width=340&height=250&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-					<a class="twitter-timeline" data-width="340" data-height="250" href="https://twitter.com/FUNVISIONSALUD">Tweets by FUNVISIONSALUD</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-				</aside>
-				<!--div id="socialnetwork" class="box">
-						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffundacion.visionsalud%2F%3Ffref%3Dts&tabs=timeline&width=340&height=250&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="340" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-						<a class="twitter-timeline" data-width="340" data-height="250" href="https://twitter.com/FUNVISIONSALUD">Tweets by FUNVISIONSALUD</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-				</div-->
-			</div>
+			<p>
+				La Fundación Visión Salud se ha caracterizado en implementar satisfactoriamente proyectos de diferentes naturalezas, así como en la presatción de servicios de consultoría especializada. A continuación se muestran las principales iniciativas desarrolladas en conjunto con nuestros clientes.
+			</p>
+			<h3>Empresas Certificadas con apoyo de la Fundación Visión Salud</h3>
+			<div id="certificadas">
+			<article id="cert1">
+				<img src="images/hospitalyopal.jpg">
+				<p>E.S.E HOSPITAL DE YOPAL
+				<br> - Casanare
+				<br>
+				<ul>
+					<li>NTCGP1000:2009</li>
+					<li>ISO:9001:2008</li>
+					<li>CERTIFICADA POR ICONTEC</li>
+				</ul>
+				</p>
+			</article>
+			<article id="cert2">
+				<img src="images/hospitalsanantoniodepadua.png">
+				<p>E.S.E. HOSPITAL SAN ANTONIO DE PADUA - La Plata (Huila)
+				<ul>
+					<li>NTCGP1000:2009</li>
+					<li>ISO:9001:2008</li>
+					<li>CERTIFICADA POR ICONTEC</li>
+				</ul>
+				</p>
+			</article>
+			<article id="cert3">
+				<img src="images/gobernacionputumayo.jpg">
+				<p>GOBERNACIÓN DE PUTUMAYO
+				<br>
+				<br>
+				<ul>
+					<li>ISO 9001:2008</li>
+					<li>CERTIFICADA POR ICONTEC</li>
+				</ul>
+				</p>
+			</article>
+			<article id="cert4">
+				<img src="images/eciplast.jpg">
+				<p>ECIPLAST
+				<br>
+				<br>
+				<ul>
+					<li>ISO 9001:2008</li>
+					<li>CERTIFICADA POR ICONTEC</li>
+				</ul>
+				</p>
+			</article>
+			<article id="cert5">
+				<img src="images/luzmarinadiaz1.jpg">
+				<p>INSTITUTO DE MEDICINA ESTÉCITA DRA. LUZ MARINA DÍAZ
+				<ul>
+					<li>ISO 9001:2008</li>
+					<li>CERTIFICADA POR ICONTEC</li>
+				</ul>
+				</p>
+			</article>
+			<article id="cert6">
+				<img src="images/districlinic1.jpg">
+				<p>DISTRICLINIC
+				<br>
+				<br>
+				<ul>
+					<li>ISO 9001:2008</li>
+					<li>CERTIFICADA POR ICONTEC</li>
+				</ul>
+				</p>
+			</article>
+		</div>
 		</section>
 		<!--Alianzas Institucionales-->
 		<section id="alianzas" class="container">
@@ -202,18 +271,54 @@
 			</div>
 			<div class="container">
 				<div class="box">
-					<img src="images/Asohosval.jpg" alt="Asociación de hospitales del Valle">
+					<a href="http://asohosval.org" target="_blank"><img src="images/Asohosval.jpg" alt="Asociación de hospitales del Valle"></a>
 				</div>
 				<div class="box">
-					<img src="images/Bancoldex_logo.jpg" alt="Bancoldex">					
+					<a href="http://bancoldex.com/portal_ingles/portal/default.aspx" target="_blank"><img src="images/Bancoldex_logo.jpg" alt="Bancoldex"></a>				
 				</div>
 				<div class="box">
-					<img src="images/SENA.jpg" alt="SENA">
+					<a href="http://www.sena.edu.co/Paginas/Inicio.aspx" target="_blank"><img src="images/SENA.jpg" alt="SENA"></a>
 				</div>
 				<div class="box">
-					<img src="images/innpulsa.jpg" alt="Innpulsa">
+					<a href="https://www.innpulsacolombia.com" target="_blank"><img src="images/innpulsa.jpg" alt="Innpulsa"></a>
+				</div>
+				<div class="box">
+					<img src="images/Asehisan-1.jpg" alt="Asociación de ESE Hospitales e IPS de Santander">
+				</div>
+				<div class="box">
+					<a href="http://www.cicce.edu.co" target="_blank"><img src="images/cicce.png" alt="Corporación CICCE"></a>					
+				</div>
+				<div class="box">
+					<a href="http://vitaclick.com/es" target="_blank"><img src="images/VITACLICK.jpg" alt="VITACLCK"></a>
 				</div>
 			</div>			
+		</section>
+		<!--Informativa-->
+		<section id="noticias" class="container">
+			<div class="page-header">
+				<h2>Informativa</h2>
+			</div>
+			<div class="container">
+				<div>
+					<a href="periodicos/PERIODICO26.pdf" target="_blank"><img src="images/imgperiodicos/26.jpg"></a>
+					<a href="periodicos/PERIODICO25.pdf" target="_blank"><img src="images/imgperiodicos/25.png"></a>
+					<a href="periodicos/PERIODICO24.pdf" target="_blank"><img src="images/imgperiodicos/24.png"></a>
+					<a href="periodicos/PERIODICO23.pdf" target="_blank"><img src="images/imgperiodicos/23.png"></a>
+					<a href="periodicos/PERIODICO22.pdf" target="_blank"><img src="images/imgperiodicos/24.png"></a>
+					<a href="periodicos/PERIODICO21.pdf" target="_blank"><img src="images/imgperiodicos/21.png"></a>
+					<a href="periodicos/PERIODICO20.pdf" target="_blank"><img src="images/imgperiodicos/20.png"></a>					
+				</div>
+				<div class="hide">
+					<a href="periodicos/PERIODICO26.pdf" target="_blank"><img src="images/imgperiodicos/26.jpg"></a>
+					<a href="periodicos/PERIODICO25.pdf" target="_blank"><img src="images/imgperiodicos/25.png"></a>
+					<a href="periodicos/PERIODICO24.pdf" target="_blank"><img src="images/imgperiodicos/24.png"></a>
+					<a href="periodicos/PERIODICO23.pdf" target="_blank"><img src="images/imgperiodicos/23.png"></a>
+					<a href="periodicos/PERIODICO22.pdf" target="_blank"><img src="images/imgperiodicos/24.png"></a>
+					<a href="periodicos/PERIODICO21.pdf" target="_blank"><img src="images/imgperiodicos/21.png"></a>
+					<a href="periodicos/PERIODICO20.pdf" target="_blank"><img src="images/imgperiodicos/20.png"></a>
+					
+				</div>
+			</div>
 		</section>
 		<!--Contacto-->
 		<section id="contacto">

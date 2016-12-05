@@ -1,8 +1,11 @@
-*{box-sizing:border-box;}
+*{-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+		  box-sizing:border-box;}
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 1.6;
+
 }
 .home-wrapper{
 	/*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/background.jpg')no-repeat center top;*/
@@ -44,7 +47,7 @@ header nav a.active{
 }
 #home h1{
 	color: #FFFFFF;
-	font-size: 68px;
+	font-size: 52px;
 	font-weight: normal;
 	line-height: 1.2;
 	margin-bottom: 40px;
@@ -118,7 +121,6 @@ header nav a.active{
 	pointer-events:auto;
 }
 .modalDialog > div{
-
 	width: 992px;
 	position: relative;
 	margin: 3% auto;
@@ -130,14 +132,13 @@ header nav a.active{
 	background: -o-linear-gradient(#fff,#999);
 }
 .close{
-
 	background: #606061;
-	color: #FFFFFF;
+	color: #D12D33;
 	line-height: 25px;
 	position: absolute;
-	right: -12px;
+	right: 5px;
 	text-align: center;
-	top: -5px;
+	top: 5px;
 	width: 24px;
 	text-decoration: none;
 	font-weight: bold;
@@ -170,12 +171,114 @@ header nav a.active{
 }
 #noticias .box{
 	display: inline-block;
-	width: 31%;
-	margin: auto;
+	width: 45%;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+#noticias .row{
+	display: inline-block;
+	width: 1024;
+	margin-left: auto;
+	margin-right: auto;
 }
 #socialnetwork{
-	float: right;
+	display: inline-block;
+	float: left;
+	margin-left: auto;
+	margin-right: 0px;
+	padding-left: 13px;
 }
+.hide{
+	display: none;
+}
+#experiencia #cert1{
+	width: 280px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+#cert1 img{
+	width: 180px;
+	height: 180px;
+	border-style:dotted;
+	border-width: 1px;
+	margin-left: 20px;
+}
+#experiencia #cert2{
+	width: 280px;
+	display: inline-block;
+	vertical-align: top;
+	
+	
+}
+ #cert2 img{
+	width: 180px;
+	height: 180px;
+	border-style: dotted;
+	border-width: 1px;
+	margin-left: 20px;
+
+}
+#experiencia #cert3{
+	width: 280px;
+	display: inline-block;
+	vertical-align: top;
+	
+	
+}
+#cert3 img{
+	width: 180px;
+	height: 180px;
+	border-style: dotted;
+	border-width: 1px;
+	margin-left: 20px;
+	
+}
+#experiencia #cert4{
+	width: 280px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+#cert4 img{
+	width: 180px;
+	height: 180px;
+	border-style: dotted;
+	border-width: 1px;
+	margin-left: 20px;
+}
+#experiencia #cert5{
+	width: 280px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+#cert5 img{
+	width: 180px;
+	height: 180px;
+	border-style: dotted;
+	border-width: 1px;
+	margin-left: 20px;
+}
+#experiencia #cert6{
+	width: 280px;
+	display: inline-block;
+	vertical-align: top;
+	
+	
+}
+#cert6 img{
+	width: 180px;
+	height: 180px;
+	border-style: dotted;
+	border-width: 1px;
+	margin-left: 20px;
+}
+#certificadas{
+	margin-left: 30px;
+	 
+}
+
 #alianzas div{
 	padding-right: 0;
 	margin-right: 0;
@@ -237,22 +340,24 @@ section h2{
 	margin-bottom: 25px;
 }
 .container{
-	width: 1024px;
+	width: 920px;
 	margin-left: auto;
 	margin-right: auto;
 }
-#Institucional .container{
+section #Institucional #social #educacion  .container{
 	width: 620px;
 	margin: auto;
 
 }
-#social .container{
-	width: 620px;
-	margin: auto;
 
-}
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
   }
+h3{
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-left: 80px;
+	text-decoration: underline;
+}
