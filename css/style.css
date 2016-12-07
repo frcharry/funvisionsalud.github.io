@@ -121,9 +121,9 @@ header nav a.active{
 	pointer-events:auto;
 }
 .modalDialog > div{
-	width: 900px;
+	width: 50%;
 	position: relative;
-	margin: 3% auto;
+	margin: 1% auto;
 	padding: 2px 5px 3px 5px;
 	border-radius: 10px;
 	background: #fff;
@@ -153,6 +153,21 @@ header nav a.active{
 
 	background: #00d9ff;
 }
+/*Controles de paso de imágenes del carousel*/
+#institucionalCarousel {
+	position: relative;
+	width: 400px;
+	height: 500px;
+	margin: 2% auto;
+}
+
+/*Cuadro Gris posterior con la X de cerrar*/
+#Institucional .container{
+	width: 400px;
+	height: 550px;
+}
+
+
 .sidebar
 {
 	float: right;
@@ -164,6 +179,26 @@ header nav a.active{
 #social{
 	text-align: center;
 	padding: 30px 0;
+}
+#social .container{
+	width: 400px;
+	height: 550px;
+}
+#socialCarousel {
+	position: relative;
+	width: 400px;
+	height: 500px;
+	margin: 2% auto;
+}
+#educacion .container{
+	width: 400px;
+	height: 550px;
+}
+#eduCarousel {
+	position: relative;
+	width: 400px;
+	height: 500px;
+	margin: 2% auto;
 }
 #noticias .container{
 	display: inline-block;
@@ -324,6 +359,7 @@ header nav a.active{
 	list-style-type: none;
 	padding-left: 0px;
 }
+
 #certificadas{
 	margin-left: 30px;
 	 
@@ -400,10 +436,10 @@ section #Institucional #social #educacion  .container{
 	margin: auto;
 
 }
-
+/*Imágen del Carousel*/
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
+      width: 400px;
+      height: 500px;
   }
 
