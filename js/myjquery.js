@@ -1,9 +1,32 @@
-$(document).ready(function){
-	$(#hide).click(function){
-		$("p").hide()
-	};
-	$(#show).click(function){
-		$("p").show()
-
-	};
-};
+$(document).ready(function(){
+	$("button").click(function(){
+		$("#years").toggle(1000)
+	});
+	$("#s2016").click(function(){
+		$("#2016").toggle(1000)
+	});
+	$("#s2015").click(function(){
+		$("#2015").toggle(1000)
+	});
+	$("#s2014").click(function(){
+		$("#2014").toggle(1000)
+	});
+	$("#s2013").click(function(){
+		$("#2013").toggle(1000)
+	});
+	$("#s2012").click(function(){
+		$("#2012").toggle(1000)
+	});
+	$("#s2011").click(function(){
+		$("#2011").toggle(1000)
+	});
+	$("#s2010").click(function(){
+		$("#2010").toggle(1000)
+	});
+	$("#s2009").click(function(){
+		$("#2009").toggle(1000)
+	});
+	$("#s2008").click(function(){
+		$("#2008").toggle(1000)
+	});
+});

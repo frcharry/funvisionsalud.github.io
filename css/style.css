@@ -121,10 +121,10 @@ header nav a.active{
 	pointer-events:auto;
 }
 .modalDialog > div{
-	width: 992px;
+	width: 900px;
 	position: relative;
 	margin: 3% auto;
-	padding: 5px 20px 13px 20px;
+	padding: 2px 5px 3px 5px;
 	border-radius: 10px;
 	background: #fff;
 	background: -moz-linear-gradient(#fff, #999);
@@ -195,77 +195,114 @@ header nav a.active{
 	width: 280px;
 	display: inline-block;
 	vertical-align: top;
-	
+	font-size: 75%;
 }
 #cert1 img{
-	width: 180px;
+	width: 90%;
 	height: 180px;
 	border-style:dotted;
 	border-width: 1px;
-	margin-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#cert1 p{
+	width: 100%;
+	padding-top: 5px;
 }
 #experiencia #cert2{
 	width: 280px;
 	display: inline-block;
 	vertical-align: top;
-	
-	
+	font-size: 75%;
 }
  #cert2 img{
-	width: 180px;
+	width: 90%;
 	height: 180px;
 	border-style: dotted;
 	border-width: 1px;
-	margin-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
 
+}
+#cert2 p{
+	width: 100%;
+	padding-top: 5px;
 }
 #experiencia #cert3{
 	width: 280px;
 	display: inline-block;
 	vertical-align: top;
-	
+	font-size: 75%;
 	
 }
 #cert3 img{
-	width: 180px;
+	width: 90%;
 	height: 180px;
 	border-style: dotted;
 	border-width: 1px;
-	margin-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
 	
+}
+#cert3 p{
+	width: 100%;
+	padding-top: 5px;
 }
 #experiencia #cert4{
 	width: 280px;
 	display: inline-block;
 	vertical-align: top;
-	
+	font-size: 75%;
 }
 #cert4 img{
-	width: 180px;
+	width: 90%;
 	height: 180px;
 	border-style: dotted;
 	border-width: 1px;
-	margin-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#cert4 p{
+	width: 100%;
+	padding-top: 5px;
 }
 #experiencia #cert5{
 	width: 280px;
 	display: inline-block;
 	vertical-align: top;
-	
+	font-size: 75%;
 }
 #cert5 img{
-	width: 180px;
+	width: 90%;
 	height: 180px;
 	border-style: dotted;
 	border-width: 1px;
-	margin-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#cert5 p{
+	width: 100%;
+	padding-top: 5px;
 }
 #experiencia #cert6{
 	width: 280px;
 	display: inline-block;
 	vertical-align: top;
+	font-size: 75%;
 	
-	
+}
+#cert6 img{
+	width: 90%;
+	height: 180px;
+	border-style: dotted;
+	border-width: 1px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#cert6 p{
+	width: 100%;
+	padding-top: 5px;
 }
 #experiencia h3{
 	padding-top: 5px;
@@ -273,17 +310,25 @@ header nav a.active{
 	margin-left: 80px;
 	text-decoration: underline;
 }
-#cert6 img{
-	width: 180px;
-	height: 180px;
-	border-style: dotted;
-	border-width: 1px;
-	margin-left: 20px;
+#experiencia ul{
+	padding-left: 20px;
+}
+
+#consul1 div{
+	display: none;
+}
+#consul1 table{
+	display: none;
+}
+#consul1 ul{
+	list-style-type: none;
+	padding-left: 0px;
 }
 #certificadas{
 	margin-left: 30px;
 	 
 }
+
 
 #alianzas div{
 	padding-right: 0;
