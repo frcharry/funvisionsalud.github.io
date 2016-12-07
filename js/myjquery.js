@@ -29,4 +29,7 @@ $(document).ready(function(){
 	$("#s2008").click(function(){
 		$("#2008").toggle(1000)
 	});
+	$(".maps").mouseenter(function(){
+		$(".maps iframe").css("pointer-events","none")
+	});
 });
