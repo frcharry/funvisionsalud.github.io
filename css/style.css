@@ -75,7 +75,7 @@ header nav a.active{
 	
 }
 #home .social{
-	margin-top: 80px;
+	margin-top: 10px;
 }
 #home .social a{
 	color: white;
@@ -163,7 +163,7 @@ header nav a.active{
 
 /*Cuadro Gris posterior con la X de cerrar*/
 #Institucional .container{
-	width: 400px;
+	width: 350px;
 	height: 550px;
 }
 
@@ -199,29 +199,6 @@ header nav a.active{
 	width: 400px;
 	height: 500px;
 	margin: 2% auto;
-}
-#noticias .container{
-	display: inline-block;
-	
-}
-#noticias .box{
-	display: inline-block;
-	width: 45%;
-	margin-top: 0px;
-	margin-bottom: 25px;
-}
-#noticias .row{
-	display: inline-block;
-	width: 1024;
-	margin-left: auto;
-	margin-right: auto;
-}
-#socialnetwork{
-	display: inline-block;
-	float: left;
-	margin-left: auto;
-	margin-right: 0px;
-	padding-left: 13px;
 }
 .hide{
 	display: none;
@@ -373,6 +350,67 @@ header nav a.active{
 #alianzas .box p{
 	color: #666;
 	padding: 10px;
+}
+#comunicaciones .container{
+	display: inline-block;
+}
+#redes1 {
+	display: inline-block;
+
+}
+#redes2{
+	display: inline-block;
+}
+#vinformativa {
+	display: inline-block;
+	/*border-style:dotted;
+	border-width:1px;*/
+	width: 415px;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+#vinformativa object{
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#youtube {
+	display: inline-block;
+	/*border-style:dotted;
+	border-width:1px;*/	
+	width: 415px;
+	height: 300px;
+	text-align: center;
+
+}
+#youtube iframe{
+	width: 410px;
+	height: 300px;
+}
+#facebook {
+	display: inline-block;
+	border-style:dotted;
+	border-width:1px;;
+	width: 415px;
+	height: 300px;
+	text-align: center;
+
+}
+#facebook div{
+	float: left;
+	height: 300px;
+	width: 400px;
+}
+#twitter {
+	display: inline-block;
+	border-style:dotted;
+	border-width:1px;
+	width: 415px;
+	height: 300px;
+	text-align: center;
+
 }
 #contacto .box{
 	display: inline-block;
