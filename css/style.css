@@ -5,6 +5,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 1.6;
+	background: url('../images/sidebackground.png');
 
 }
 .home-wrapper{
@@ -25,6 +26,7 @@ header img{
 	height: 65px;
 }
 header nav{
+
 	float:right;
 	margin-top: 10px;
 }
@@ -391,8 +393,6 @@ header nav a.active{
 }
 #facebook {
 	display: inline-block;
-	border-style:dotted;
-	border-width:1px;;
 	width: 415px;
 	height: 300px;
 	text-align: center;
@@ -405,12 +405,13 @@ header nav a.active{
 }
 #twitter {
 	display: inline-block;
-	border-style:dotted;
-	border-width:1px;
 	width: 415px;
 	height: 300px;
 	text-align: center;
 
+}
+.twitter-timeline{
+	display: inline;
 }
 #contacto .box{
 	display: inline-block;
@@ -455,7 +456,7 @@ section h2{
 .container{
 	width: 920px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;	
 }
 section #Institucional #social #educacion  .container{
 	width: 620px;
