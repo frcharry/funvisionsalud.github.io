@@ -379,9 +379,7 @@ header nav a.active{
 }
 
 #youtube {
-	display: inline-block;
-	/*border-style:dotted;
-	border-width:1px;*/	
+	display: inline-block;	
 	width: 415px;
 	height: 300px;
 	text-align: center;
@@ -394,19 +392,19 @@ header nav a.active{
 #facebook {
 	display: inline-block;
 	width: 415px;
-	height: 300px;
+	height: 500px;
 	text-align: center;
 
 }
 #facebook div{
-	float: left;
-	height: 300px;
+	float: right;
+	height: 500px;
 	width: 400px;
 }
 #twitter {
 	display: inline-block;
 	width: 415px;
-	height: 300px;
+	height: 500px;
 	text-align: center;
 
 }
