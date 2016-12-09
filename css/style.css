@@ -365,8 +365,6 @@ header nav a.active{
 }
 #vinformativa {
 	display: inline-block;
-	/*border-style:dotted;
-	border-width:1px;*/
 	width: 415px;
 	height: 300px;
 	float: left;
@@ -398,6 +396,7 @@ header nav a.active{
 }
 #facebook div{
 	float: right;
+	display: inline-block;
 	height: 500px;
 	width: 400px;
 }
