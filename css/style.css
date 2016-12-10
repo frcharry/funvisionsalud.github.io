@@ -376,6 +376,7 @@ header nav a.active{
 }
 #redes2{
 	display: inline-block;
+	position: inherit;
 }
 #vinformativa {
 	display: inline-block;
