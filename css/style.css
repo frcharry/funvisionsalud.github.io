@@ -426,6 +426,9 @@ header nav a.active{
 	text-align: center;
 
 }
+.fb-page{
+	display: inline-block;
+}
 #facebook div{
 	float: right;
 	display: inline-block;
