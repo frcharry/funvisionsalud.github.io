@@ -427,7 +427,7 @@ header nav a.active{
 
 }
 .fb-page{
-	display: inline-block;
+	position: inherit;
 }
 #facebook div{
 	float: right;
