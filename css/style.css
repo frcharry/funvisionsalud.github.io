@@ -163,6 +163,12 @@ header nav a.active{
 	height: 500px;
 	margin: 2% auto;
 }
+.carousel-indicators li {
+  background-color: #00592F;
+}
+.carousel-indicators .active {
+  background-color: red;
+}
 
 /*Cuadro Gris posterior con la X de cerrar*/
 #Institucional .container{
