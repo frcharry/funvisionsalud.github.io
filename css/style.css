@@ -26,7 +26,6 @@ header img{
 	height: 65px;
 }
 header nav{
-
 	float:right;
 	margin-top: 10px;
 }
@@ -376,7 +375,7 @@ header nav a.active{
 }
 #redes2{
 	display: inline-block;
-	position: inherit;
+	
 }
 #vinformativa {
 	display: inline-block;
@@ -446,21 +445,13 @@ header nav a.active{
 .twitter-timeline{
 	display: inline;
 }
-#contacto .box{
-	display: inline-block;
-	text-align: center;
-	width: 45%;
-	margin: 1%;
-	
-}
 #contacto{
-	background-position: center;
-	background-repeat:no-repeat;
 	text-align: center;
+
 }
 #contacto input{
 	padding: 20px;
-	width: 400px;
+	width: 100%;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 }
@@ -472,6 +463,34 @@ header nav a.active{
 #contacto form{
 	display: inline-block;
 }
+#donacion1 {
+	display: inline-block;
+	padding: 10px 0;
+	
+}
+#donacion2 {
+	display: inline-block;
+	padding: 10px 0;
+}
+
+.jumbotron h2{
+	font-size: 70px;
+	padding-top: 10px;
+}
+#mailbox{
+	float: left;
+	width: 400px;
+	height: 300px;
+	position: inherit;
+	padding:0px 0;
+
+}
+#address{
+	position: inherit;
+	float: right;
+	width: 50%;
+}
+
 footer {
 	padding: 90px 0;
 	text-align: center;
@@ -485,6 +504,7 @@ section h2{
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 25px;
+	text-transform: capitalize;
 }
 .container{
 	width: 920px;
@@ -495,6 +515,12 @@ section #Institucional #social #educacion  .container{
 	width: 620px;
 	margin: auto;
 
+}
+.page-header{
+	width: 900px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+	margin: 20px auto; 
 }
 /*Imágen del Carousel*/
 .carousel-inner > .item > img,
