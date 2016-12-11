@@ -369,6 +369,9 @@ header nav a.active{
 #comunicaciones .container{
 	display: inline-block;
 }
+#comunicaciones{
+	padding-bottom: 10px;
+}
 #redes1 {
 	display: inline-block;
 
@@ -492,7 +495,7 @@ header nav a.active{
 }
 
 footer {
-	padding: 90px 0;
+	padding: 10px 0;
 	text-align: center;
 	font-size: 18px;
 }
