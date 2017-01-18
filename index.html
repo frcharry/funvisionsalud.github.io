@@ -42,7 +42,7 @@
 		<div class="home-wrapper">
 			<!--Header-->
 			<header>
-				<div class="container">
+				<div class="container-fluid">
 					<a href="#home" onclick="$('#home').animatescroll({scrollSpeed:1500});"><img src="images/logo.png" alt="FUNDACION VISION SALUD"></a>
 					<nav>
 						<a href="#home" class="active">Home</a>
@@ -50,14 +50,14 @@
 						<a href="#experiencia">Experiencia</a>
 						<a href="#alianzas">Alianzas</a>
 						<a href="#contacto">Contacto y Donaciones</a>
+						<a href="#">Programas Sociales</a>
 						<a href="#comunicaciones">Comunicaciones</a>
-						
 					</nav>
 				</div>
 			</header>
 			<!--Home-->			
 			<section id="home" class="container">
-				<h1>APORTAMOS AL DESARROLLO <strong>SOSTENIBLE Y SUSTENTABLE</strong> <br>DE LAS EMPRESAS Y LA SOCIEDAD</h1>
+				<h1>APORTAMOS AL DESARROLLO <strong>SUSTENTABLE</strong> <br>DE LAS EMPRESAS Y LA SOCIEDAD</h1>
 				<button type="button" class="btn btn-success btn-lg"><a href="#servicios" onclick="$('#servicios').animatescroll({scrollSpeed:1500});">Entérate como</a></button>
 				<div class="divider"></div>
 				<p>"Realizando Sueños de Vida"</p>
@@ -73,7 +73,9 @@
 			<div class="page-header">
 				<h2>Bienvenido a la Fundación Visión Salud</h2>
 			</div>
-			<P>Mediante un equipo <strong>profesional</strong> de consultores y asesores enfocado en la realización de proyectos y prestación de servicios en tres principales categorías:(Da clic en la imágen para mas información)</P>
+			<div class="titulo">
+				<h3>PROYECTOS</h3>
+			</div>
 			<DIV class="box">
 				<a href="#Institucional"><img src="images/institucionales.png" alt="Institucional"></a>
 				<h3>INSTITUCIONALES</h3>
@@ -157,9 +159,9 @@
 					<!--/div-->		
 				</div>
 			</div>
-			<DIV class="box">
+			<Div class="box">
 				<a href="#educacion"><img src="images/educacion.png" alt="Educacion"></a>
-				<h3>EDUCACIÓN</h3>
+				<h3>EDUCATIVOS</h3>
 			</DIV>
 			<div ID="educacion" class="modalDialog">
 				<div>
@@ -198,15 +200,14 @@
 				<h2>Logros y  Experiencia</h2>
 			</div>
 			<p>
-				La Fundación Visión Salud se ha caracterizado en implementar satisfactoriamente proyectos de diferentes naturalezas, así como en la prestación de servicios de consultoría especializada. A continuación se muestran las principales iniciativas desarrolladas en conjunto con nuestros clientes.
+				La Fundación Visión Salud se ha caracterizado en implementar satisfactoriamente proyectos de diferente naturaleza, así como en la prestación de servicios de consultoría especializada. A continuación se muestran las principales iniciativas desarrolladas en conjunto con nuestros clientes.
 			</p>
 			<h3>Empresas Certificadas con apoyo de la Fundación Visión Salud</h3>
 			<div id="certificadas">
 			<article id="cert1">
 				<img src="images/hospitalyopal.png">
-				<p>E.S.E HOSPITAL DE YOPAL
-				<br>Casanare
-				<br>
+				<h4>E.S.E HOSPITAL DE YOPAL</h4>
+				<p>
 				<ul>
 					<li>NTCGP1000:2009</li>
 					<li>ISO:9001:2008</li>
@@ -215,8 +216,10 @@
 				</p>
 			</article>
 			<article id="cert2">
-				<img src="images/hospitaldelaplata.png">
-				<p>  E.S.E. HOSPITAL SAN ANTONIO DE PADUA - La Plata (Huila)
+				<img src="images/hosplaplata.png">
+				<h4>E.S.E. HOSPITAL SAN ANTONIO DE PADUA</h4>
+				<p>
+				
 				<ul>
 					<li>NTCGP1000:2009</li>
 					<li>ISO:9001:2008</li>
@@ -226,9 +229,8 @@
 			</article>
 			<article id="cert3">
 				<img src="images/putumayo.png">
-				<p>GOBERNACIÓN DE PUTUMAYO
-				<br>
-				<br>
+				<h4>GOBERNACIÓN DE PUTUMAYO</h4>
+				<p>
 				<ul>
 					<li>ISO 9001:2008</li>
 					<li>CERTIFICADA POR ICONTEC</li>
@@ -237,9 +239,9 @@
 			</article>
 			<article id="cert4">
 				<img src="images/eciplast.png">
-				<p>ECIPLAST
+				<h4>ECIPLAST</h4>
 				<br>
-				<br>
+				<p>
 				<ul>
 					<li>ISO 9001:2008</li>
 					<li>CERTIFICADA POR ICONTEC</li>
@@ -248,7 +250,8 @@
 			</article>
 			<article id="cert5">
 				<img src="images/luz.png">
-				<p>INSTITUTO DE MEDICINA ESTÉTICA DRA. LUZ MARINA DÍAZ
+				<h4>INSTITUTO DE MEDICINA ESTÉTICA DRA. LUZ MARINA DÍAZ</h4>
+				<p>
 				<ul>
 					<li>ISO 9001:2008</li>
 					<li>CERTIFICADA POR ICONTEC</li>
@@ -257,9 +260,10 @@
 			</article>
 			<article id="cert6">
 				<img src="images/districlinic.png">
-				<p>DISTRICLINIC
-				<br>
-				<br>
+				<h4>DISTRICLINIC</h4>
+				<p>
+					<br>
+					<br>
 				<ul>
 					<li>ISO 9001:2008</li>
 					<li>CERTIFICADA POR ICONTEC</li>
@@ -788,6 +792,44 @@
 								<td>Asesorar a la entidad contratante en la implementación de la norma técnica de calidad en la gestión pública NTCGP 1000-2004 de acuerdo a lo estipulado en la Ley 872 de 2003 y el Modelo Estándar de Control Interno MECI-1000-2005. CTO. 121- 2008. </td>
 							</tr>
 						</tbody>
+					</table>
+					<li><span id="s2007"class="glyphicon glyphicon-triangle-right">2007</span></li>
+					<table id="2007"class="table table-bordered">
+						<thead>
+							<tr>
+								<th>Entidad</th>
+								<th>Descripción</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+					<li><span id="s2006"class="glyphicon glyphicon-triangle-right">2006</span></li>
+					<table id="2006"class="table table-bordered">
+						<thead>
+							<tr>
+								<th>Entidad</th>
+								<th>Descripción</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
 					</table>										
 				</ul>
 				</div>
@@ -800,7 +842,7 @@
 		<!--Alianzas Institucionales-->
 		<section id="alianzas" class="container">
 			<div class="page-header">
-				<h2>alianzas institucionales</h2>
+				<h2>Alianzas Institucionales</h2>
 			</div>
 			<div class="container">
 				<div class="box">
@@ -822,38 +864,35 @@
 					<a href="http://www.cicce.edu.co" target="_blank"><img src="images/cicce.png" alt="Corporación CICCE"></a>					
 				</div>
 				<div class="box">
+					<a href="http://www.caqueta.gov.co" target="_blank"><img src="images/caqueta.png" alt="Gobernación del Caquetá"></a>
+				</div>
+				<div class="box">
 					<a href="http://vitaclick.com/es" target="_blank"><img src="images/vitaclick.png" alt="VITACLCK"></a>
+				</div>
+				<div class="box">
+					<a href="http://www.uniamazonia.edu.co" target="_blank"><img src="images/uamazonia.png" alt="Universidad de la Amazonía"></a>
 				</div>
 			</div>			
 		</section>
 		<!--Contacto-->
 		<section id="contacto" class="container">
 				<div class="page-header">
-					<h2>contacto y donaciones</h2>
+					<h2>Contacto y Donaciones</h2>
 				</div>
-				<!--div class="box">
-					<form>
-					<div><input type="text" placeholder="Tu e-mail"></div>
-					<div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
-					<button class="btn btn-success btn-large">Enviar</button>
-					</form>
+				<div class="jumbotron col-xs-12" id="donacion1">
+					<h3 class="display-3">Realiza tu donación</h3>
+					<div class="formulario">
+						<form action="payment.php" method="POST">
+							Nombre: <input type="text" name="nombre">
+							Valor: <input type="text" name="valuebase">
+							<br>
+							Moneda:
+							<input type="radio" name="currency" value="COP"> COP$
+							<input type="radio" name="currency" value="USD"> USD$
+							<input type="submit" name="submit" value="Submit"> 
+						</form>
+					</div>
 				</div>
-				<div class="box">
-						<div class="maps">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.581122070688!2d-75.28884046221836!3d2.936013820786682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwNTYnMDkuNiJOIDc1wrAxNycxNS43Ilc!5e0!3m2!1ses!2ses!4v1476763568278" width="380" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div>
-						<strong>Dirección: </strong> Calle 18 # 7A-28 Barrio Quirinal - Neiva Huila</p>
-						<p><strong>Teléfono: </strong> +57 8 8625900 / +57 3112360652</p>	
-						<p><strong>E-mail: </strong><a href="mailto:presidencia@funvisionsalud.org" alt="mailto:presidencia@funvisionsalud.org">presidencia@funvisionsalud.org</a></p>
-						<p><a href="www.funvisionsalud.org">www.funvisionsalud.org</a></p>
-				</div-->
-				<section id="donacion1">
-					<article class="jumbotron" id="pse">
-						<h2>Quieres ayudar?</h2>
-						<p>Conoce nuestro banco de ropa, juguetes, plan padrino y club deportivo, con tu aporte podrás ayudar a personas que lo necesitan, ponte en contacto con nosotros o envía tu donación. <strong>Anímate!</strong></p>
-						<button class="btn btn-lg btn-danger">DONACIONES</button>
-					</article>
-				</section>
 				<section id="donacion2">
 					<article class="col-sm-4" id="mailbox">
 						<form>

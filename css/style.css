@@ -36,12 +36,18 @@ header nav a{
 	text-decoration: none;
 	margin-left: 10px;
 	padding: 5px 10px ;
+	text-decoration: none;
 
 }
+header a.hover{
+	background: #D8D9D9;
+}
+
 header nav a.active{
 	background: #D8D9D9;
 	border-radius: 3px;
 }
+
 #home{
 	text-align: center;
 	padding: 150px 0 150px;
@@ -103,6 +109,10 @@ header nav a.active{
 	text-align: center;
 	width: 33%;
 	padding: 10px;
+}
+.titulo h3{
+	text-align: center;
+	text-decoration: underline;
 }
 .modalDialog {
 	position: fixed;
@@ -360,7 +370,7 @@ header nav a.active{
 #alianzas .box{
 	display: inline-table;
 	text-align: center;
-	width: 18%;
+	width: 25%;
 	margin: 2%;
 	
 }
@@ -456,9 +466,8 @@ header nav a.active{
 }
 #contacto{
 	text-align: center;
-
 }
-#contacto input{
+#donacion2 input{
 	padding: 20px;
 	width: 100%;
 	border: 1px solid #ccc;
@@ -469,13 +478,13 @@ header nav a.active{
 	padding: 20px;
 	width: 400px;
 }
-#contacto form{
+/*#contacto form{
 	display: inline-block;
-}
+}*/
 #donacion1 {
-	display: inline-block;
-	padding: 10px 0;
-	
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
 }
 #donacion2 {
 	display: inline-block;
@@ -513,7 +522,7 @@ section h2{
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 25px;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 }
 .container{
 	width: 920px;

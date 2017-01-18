@@ -29,6 +29,12 @@ $(document).ready(function(){
 	$("#s2008").click(function(){
 		$("#2008").toggle(1000)
 	});
+	$("#s2007").click(function(){
+		$("#2007").toggle(1000)
+	});
+	$("#s2006").click(function(){
+		$("#2006").toggle(1000)
+	});
 	$(".maps").mouseenter(function(){
 		$(".maps iframe").css("pointer-events","none")
 	});
