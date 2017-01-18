@@ -882,14 +882,18 @@
 				<div class="jumbotron col-xs-12" id="donacion1">
 					<h3 class="display-3">Realiza tu donación</h3>
 					<div class="formulario">
-						<form action="payment.php" method="POST">
+						<form method="POST" action="payment.php" >
 							Nombre: <input type="text" name="nombre">
 							Valor: <input type="text" name="valuebase">
+							<input type="hidden" name="valuetax" value="0" />
+							<!--input type="hidden" name="valuetotal" value="1000" /-->
+							<input type="hidden" name="reference" value="Donante" />
 							<br>
 							Moneda:
 							<input type="radio" name="currency" value="COP"> COP$
 							<input type="radio" name="currency" value="USD"> USD$
-							<input type="submit" name="submit" value="Submit"> 
+							<input type="hidden" name="orderdescription" value="Orden Description" />
+							<input type="submit" name="submit" value="Enviar">
 						</form>
 					</div>
 				</div>

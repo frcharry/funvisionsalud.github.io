@@ -19,7 +19,7 @@ header{
 	padding: 10px 0;
 	width: 100%;
 	background-color: rgba(48, 48, 48, 0.5);
-	/*background-color: #FFFFFF;*/
+	
 
 }
 header img{
@@ -30,7 +30,7 @@ header nav{
 	margin-top: 10px;
 }
 header nav a{
-	/*color:#004522;*/
+
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
@@ -485,6 +485,7 @@ header nav a.active{
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
+	z-index: -99999;
 }
 #donacion2 {
 	display: inline-block;
