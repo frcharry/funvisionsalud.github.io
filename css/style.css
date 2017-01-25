@@ -399,16 +399,15 @@ header nav a.active{
 }
 .iconfa{
 	padding-bottom: 5px;
+	padding-top: 3px;
 }
 #vinformativa {
-	display: inline-block;
-	/*width: 415px;
-	height: 300px;*/
-	float: left;
 	text-align: center;
+	position: inherit;
+	height: 380px;
 }
 #vinformativa object{
-	float: right;
+	/*float: right;*/
 	width: 200px;
 	height: 240px;
 	padding-left: 10px;
@@ -431,9 +430,9 @@ header nav a.active{
 	padding-left: 0px;
 }
 
-#youtube {
-	display: inline-block;	
+#youtube {	
 	text-align: center;
+	height: 380px;
 
 }
 #youtube iframe{
@@ -442,7 +441,7 @@ header nav a.active{
 }
 
 #facebook {
-	/*display: inline-block;*/
+	display: inline-block;
 	text-align: center;
 
 }
@@ -450,8 +449,7 @@ header nav a.active{
 	position: inherit;
 }
 #facebook div{
-	/*float: right;
-	width: 400px;*/
+	float: right;
 	display: block;
 	
 }
@@ -487,7 +485,7 @@ header nav a.active{
 	z-index: -99999;
 }
 #donacion2 {
-	/*display: inline-block;*/
+	display: inline-block;
 	padding: 10px 0;
 }
 
@@ -496,15 +494,13 @@ header nav a.active{
 	padding-top: 10px;
 }
 #mailbox{
-	float: left;
+	/*float: left;*/
 	position: inherit;
 	padding:0px 0;
 
 }
 #address{
 	position: inherit;
-	/*float: right;*/
-	width: 50%;
 }
 
 footer {
@@ -522,11 +518,11 @@ section h2{
 	margin-bottom: 25px;
 	
 }
-.container{
+/*.container{
 	
 	margin-left: auto;
 	margin-right: auto;	
-}
+}*/
 section #Institucional #social #educacion  .container{
 	width: 620px;
 	margin: auto;
