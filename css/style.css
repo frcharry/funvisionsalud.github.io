@@ -53,7 +53,6 @@ header nav a.active{
 }
 #home h1{
 	color: #FFFFFF;
-	font-size: 52px;
 	font-weight: normal;
 	line-height: 1.2;
 	margin-bottom: 40px;
@@ -144,7 +143,7 @@ header nav a.active{
 	pointer-events:auto;
 }
 .modalDialog > div{
-	width: 50%;
+	/*width: 50%;*/
 	position: relative;
 	margin: 1% auto;
 	padding: 2px 5px 3px 5px;
@@ -179,7 +178,7 @@ header nav a.active{
 /*Controles de paso de imágenes del carousel*/
 #institucionalCarousel {
 	position: relative;
-	width: 400px;
+	/*width: 400px;*/
 	height: 500px;
 	margin: 2% auto;
 }
@@ -192,7 +191,7 @@ header nav a.active{
 
 /*Cuadro Gris posterior con la X de cerrar*/
 #Institucional .container{
-	width: 350px;
+	/*width: 350px;*/
 	height: 550px;
 }
 
@@ -210,22 +209,20 @@ header nav a.active{
 	padding: 30px 0;
 }
 #social .container{
-	width: 400px;
+	/*width: 400px;*/
 	height: 550px;
 }
 #socialCarousel {
 	position: relative;
-	width: 400px;
 	height: 500px;
 	margin: 2% auto;
 }
 #educacion .container{
-	width: 400px;
+	/*width: 400px;*/
 	height: 550px;
 }
 #eduCarousel {
 	position: relative;
-	width: 400px;
 	height: 500px;
 	margin: 2% auto;
 }
@@ -449,7 +446,6 @@ header nav a.active{
 	position: inherit;
 }
 #facebook div{
-	float: right;
 	display: block;
 	
 }
@@ -537,7 +533,7 @@ section #Institucional #social #educacion  .container{
 /*Imágen del Carousel*/
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 400px;
+      width: 100%;
       height: 500px;
   }
 
@@ -547,3 +543,57 @@ section #Institucional #social #educacion  .container{
 h3{
 	text-align: center;
 }
+
+/*@mediaqueries*/
+@media (max-width: 500px) {
+  		h1{
+  			font-size: 35px;
+  		}
+}
+@media (min-width: 501px){
+		h1{
+			font-size: 52px;
+		}
+		.upcontainer{
+			width: 85%;
+		}
+		.modalDialog >div{
+			width: 95%;
+		}
+}
+@media(min-width: 768px){
+	.upcontainer{
+		width: 85%;
+	}
+	.modalDialog >div{
+		width: 55%;
+	}
+}
+@media(min-width: 992px){
+	.upcontainer{
+		width: 75%;
+	}
+	.modalDialog >div{
+			width: 50%;
+	}
+}
+@media (min-width: 1100px){
+	.upcontainer{
+		width: 70%;
+	}
+	.modalDialog >div{
+			width: 50%;
+	}
+}
+@media (min-width: 1500px){
+	.upcontainer{
+		width: 50%;
+	}
+	.modalDialog >div{
+			width: 75%;
+	}
+}
+	
+
+
+
