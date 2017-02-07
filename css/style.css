@@ -21,9 +21,7 @@ header{
 #myNavbar{
 	background-color: rgba(48, 48, 48, 0.7);
 }
-#myNavbar a{
-	margin-right: 6px;
-}
+
 .icon-bar{
 	background-color: #c90810;
 }
@@ -38,8 +36,6 @@ header nav a{
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
-	margin-left: 10px;
-	padding: 5px 10px ;
 	text-decoration: none;
 }
 header a.hover{
@@ -510,6 +506,13 @@ footer {
 	text-align: center;
 	font-size: 18px;
 }
+.derecha{
+	float: right;
+	font-size: 10px;
+}
+.derecha a{
+	color: grey;
+}
 section{
 	padding: 80px 0;
 }
@@ -574,6 +577,7 @@ h3{
 	.modalDialog >div{
 		width: 55%;
 	}
+
 }
 @media(min-width: 992px){
 	.upcontainer{
@@ -599,6 +603,19 @@ h3{
 			width: 75%;
 	}
 }
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 6px;
+    margin-right: 10px;
+}
+.navbar-collapse{
+	text-align: center;
+}
+.container-fluid>.navbar-header{
+	margin-left: 0px;
+}
+
 	
 
 
