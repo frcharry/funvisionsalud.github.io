@@ -51,22 +51,18 @@
         $currency = $_REQUEST["currency"]; 
         $reference = $_REQUEST["reference"];
         $orderdescription = $_REQUEST["orderdescription"];
-        $urlresponse="http://www.funvisionsalud.org/index.html#transacciones";
+        $urlresponse="http://www.funvisionsalud.org/index.html#contacto";
            
         define('KEY_ALIAS', 'aes-256-cbc');
-        define('PAYCODE_URL_ENVIRONMENT', 'https://api.paycode.co');
-        define('PAYCODE_API_KEY', '0ce321b04046715d1ee54c0405af419b514ce385ca5121ccd0f2e98a69697d1f');
-        define('PAYCODE_CHECKOUT_KEY', 'f1d8a2433cbcdd2f');
+        define('PAYCODE_URL_ENVIRONMENT', 'http://staging.paycode.co');
+        define('PAYCODE_API_KEY', '607c7675485ff806a45dffbfa37a80a3f231d47f913bdc423e80b6d8390e500a');
+        define('PAYCODE_CHECKOUT_KEY', 'f74ed28d6ff30259');
         define('PAYCODE_ECOMMERCE_ALIAS', 'fundacionvisionsalud1');
 
         $data = PAYCODE_API_KEY."|$valuebase|$valuetax|$valuetotal|$currency|$reference|$orderdescription|$urlresponse";
         $key_encrypted = base64_encode(openssl_encrypt($data, KEY_ALIAS, PAYCODE_API_KEY, 0, PAYCODE_CHECKOUT_KEY));
         ?>
-<<<<<<< Updated upstream
-        <iframe id="paycodecheckout" type="text/html" width="650" height="990"
-=======
-        <iframe id="paycodecheckout" type="text/html" width="100%" max-height="1100" height="100%"
->>>>>>> Stashed changes
+        <iframe id="paycodecheckout" type="text/html" width="650" height="890"
         src="<?php echo PAYCODE_URL_ENVIRONMENT; ?>/checkout/<?php echo PAYCODE_ECOMMERCE_ALIAS; ?>?key=<?php echo $key_encrypted; ?>"
         frameborder="0"></iframe>
     </body>
