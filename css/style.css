@@ -9,8 +9,6 @@ body{
 
 }
 .home-wrapper{
-	/*background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/background.jpg')no-repeat center top;*/
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../images/background.png')no-repeat center top;
 	background-size: cover;
 	color: white;
 }
@@ -19,7 +17,7 @@ header{
 	z-index: 999;
 }
 #myNavbar{
-	background-color: rgba(48, 48, 48, 0.7);
+	padding-right: 10px;
 }
 
 .icon-bar{
@@ -30,10 +28,11 @@ header{
 	padding-right: 0px;
 }
 header img{
-	height: 65px;
+	height: 135px;
+	
 }
 header nav a{
-	color: white;
+	color: black;
 	font-weight: bold;
 	text-decoration: none;
 	text-decoration: none;
@@ -48,7 +47,6 @@ header nav a.active{
 
 #home{
 	text-align: center;
-	padding: 150px 0 150px;
 }
 #home h1{
 	color: #FFFFFF;
@@ -514,8 +512,9 @@ footer {
 	color: grey;
 }
 section{
-	padding: 80px 0;
+	padding: 87px 0;
 }
+
 section h2{
 	font-size: 32px;
 	font-weight: bold;
@@ -523,11 +522,7 @@ section h2{
 	margin-bottom: 25px;
 	
 }
-/*.container{
-	
-	margin-left: auto;
-	margin-right: auto;	
-}*/
+
 section #Institucional #social #educacion  .container{
 	width: 620px;
 	margin: auto;
@@ -539,18 +534,22 @@ section #Institucional #social #educacion  .container{
 	padding-bottom: 5px;
 	margin: 20px auto; 
 }
-/*Imágen del Carousel*/
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      height: 500px;
-  }
+
 
 #underconstruction{
 	padding: 80px 50px 0 50px;
 }
 h3{
 	text-align: center;
+}
+
+/*Carousel*/
+.carousel-control{
+	width: 5%;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+     display: inline-block; 
+    max-width: 100%;
 }
 
 /*@mediaqueries*/
@@ -586,6 +585,9 @@ h3{
 	.modalDialog >div{
 			width: 50%;
 	}
+	#home.container{
+		width: 800px;
+	}
 }
 @media (min-width: 1100px){
 	.upcontainer{
@@ -594,6 +596,9 @@ h3{
 	.modalDialog >div{
 			width: 50%;
 	}
+ 	#home.container{
+		width: 800px;
+	}
 }
 @media (min-width: 1500px){
 	.upcontainer{
@@ -601,6 +606,9 @@ h3{
 	}
 	.modalDialog >div{
 			width: 75%;
+	}
+	 #home.container{
+		width: 800px;
 	}
 }
 .nav>li>a {
@@ -612,9 +620,11 @@ h3{
 .navbar-collapse{
 	text-align: center;
 }
-.container-fluid>.navbar-header{
-	margin-left: 0px;
+#home{
+	text-align: center;
+	padding-top: 136px;
 }
+
 
 	
 
