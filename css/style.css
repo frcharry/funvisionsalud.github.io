@@ -226,6 +226,9 @@ header nav a.active{
 .hide{
 	display: none;
 }
+.caption>div>ul{
+	list-style-type:none;
+}
 #experiencia #cert1{
 	width: 200px;
 	display: inline-block;
@@ -374,7 +377,7 @@ header nav a.active{
 	display: inline-table;
 	text-align: center;
 	width: 25%;
-	margin: 2%;
+	padding-bottom: 15px;
 	
 }
 #alianzas .box img{
