@@ -231,6 +231,13 @@ header nav a.active{
 	vertical-align: top;
 	font-size: 75%;
 }
+.thumbnail{
+	-webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+
+}
 #cert1 img{
 	width: 180px;
 	height: 130px;
