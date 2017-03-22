@@ -232,7 +232,7 @@ header nav a.active{
 	font-size: 75%;
 }
 .thumbnail{
-	-webkit-animation-duration: 5s;
+	@-webkit-animation-duration: 5s;
   animation-duration: 5s;
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
@@ -371,6 +371,9 @@ header nav a.active{
 	 
 }
 
+.intercala {
+	background: rgba(147, 27, 27, 0.05);
+}
 
 #alianzas div{
 	padding-right: 0;
