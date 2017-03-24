@@ -43,7 +43,7 @@ $(document).ready(function(){
         $(this).collapse('hide');
     	}
 	});
-	/*$('#Carouselexp').carousel({
+	$('#Carouselexp').carousel({
   		interval: 4000
 		});
 
@@ -60,5 +60,5 @@ $(document).ready(function(){
     		}
     	next.children(':first-child').clone().appendTo($(this));
 		}
-	});*/
+	});
 });
