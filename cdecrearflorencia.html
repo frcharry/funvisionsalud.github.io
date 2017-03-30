@@ -28,79 +28,61 @@
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/MagnificPopup.css">
 		<link rel="shortcut icon" type="image/x-icon" href="images/FAVICON.png">
+
 	</head>
 	<!--Body-->
 	<body>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		
+		<div class="home-wrapper container-fluid">
 			<!--Header-->
 			<header>
-				<div class="container header-content">
-					<div class="col-sm-3 ">
-						<a href="#home" onclick="$('#home').animatescroll({scrollSpeed:1500});"><img src="images/newlogo.png" alt="FUNDACION VISION SALUD"></a>
+				<div>
+					<div class="col-md-6 col-sm-12 container">
+						<a href="#home" onclick="$('#home').animatescroll({scrollSpeed:1500});"><img src="images/cdecrarflorencia.png" alt="Centro de Desarrollo Empresarial - Florencia"></a>
 					</div>
-					<div class="col-md-9 col-sm-12">
-						<div class="social">
-							<a href="https://web.facebook.com/fundacion.visionsalud/?fref=ts" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-							<a href="https://twitter.com/FUNVISIONSALUD" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-							<a href="https://www.youtube.com/channel/UC6Ntq0sVxEIvMk4f0G-_7Zw" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
-							<a href="https://www.linkedin.com/in/fundaci%C3%B3n-visi%C3%B3n-salud-ab4413137/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-							<a href="https://www.instagram.com/funvision2017/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-							<a href="https://plus.google.com/u/0/104169076945716675472" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
-						</div>
+					<div class="col-md-6 col-sm-12 container">
+						<nav class="navbar navbar-fixed-top">
+							<div class="container">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+					    				<span class="icon-bar"></span> 
+					    			</button>
+					    		</div>
+								<div class="collapse navbar-collapse" id="myNavbar">
+					    			<ul class="nav navbar-nav navbar-right">
+					    				<li><a href="#home">Home</a></li>
+					        			<!--li><a href="#servicios">Portafolio</a></li-->
+					        			<li class="dropdown">
+					            			<a class="dropdown-toggle" data-toggle="dropdown" href="">Nosotros<span class="caret"></span></a>
+					                		<ul class="dropdown-menu">
+					                			<li> <a href="#experiencia">Logros y Experiencia</a> </li>
+					                			<li> <a href="#alianzas">Alianzas</a> </li>
+					                			<li> <a href="#">Valores Corporativos</a> </li>
+					                			<li> <a href="#">Quiénes Somos?</a> </li>
+					                		</ul>
+					            		</li>
+					        		</ul>
+								</div>
+							</div>
+						</nav>
 					</div>
 				</div>
-				<nav class="navbar navbar-default">			
-					<div class="container-fluid">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-				    			<span class="icon-bar"></span> 
-					    	</button>
-					    </div>
-						<div class="collapse navbar-collapse" id="myNavbar">
-				    		<ul class="nav nav-pills nav-justified">
-				    			<li><a href="#home">Home</a></li>
-				       			<!--li><a href="#servicios">Portafolio</a></li-->
-				       			<li class="dropdown">
-					           		<a class="dropdown-toggle" data-toggle="dropdown" href="">Nosotros<span class="caret"></span></a>
-					               	<ul class="dropdown-menu">
-				                		<li> <a href="#experiencia">Logros y Experiencia</a> </li>
-				               			<li> <a href="#alianzas">Alianzas</a> </li>
-				               			<li> <a href="#">Valores Corporativos</a> </li>
-				               			<li> <a href="#">Quiénes Somos?</a> </li>
-				               		</ul>
-					           	</li>
-					           	<li><a href="#transacciones">Donaciones y Pagos</a></li>
-					       		<li><a href="#comunicaciones">Noticias y Eventos</a></li>
-					       		<li><a href="#contacto">Contacto</a></li>
-				    		</ul>
-						</div>
-					</div>								
-				</nav>					
 			</header>
 			<!--Home-->			
 			<section id="home" class="container-fluid">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
-				    <li data-target="#myCarousel" data-slide-to="0"></li>
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				    <li data-target="#myCarousel" data-slide-to="1"></li>
 				    <li data-target="#myCarousel" data-slide-to="2"></li>
-				     <li data-target="#myCarousel" data-slide-to="3" class="active"></li>
+				     <li data-target="#myCarousel" data-slide-to="3" ></li>
 				  </ol>
 
 				  <!-- Wrapper for slides -->
 				  <div class="carousel-inner" role="listbox">
-				    <div class="item">
+				    <div class="item active">
 				      <img src="images/wservicio1.png" alt="">
 				    </div>
 
@@ -111,8 +93,8 @@
 				    <div class="item">
 				      <img src="images/wservicio3.png" alt=""		>
 				    </div>
-				    <div class="item active">
-				      <a href="cdecrearflorencia.html"><img src="images/crear.png" alt=""></a>
+				    <div class="item">
+				      <img src="images/crear.png" alt="">
 				    </div>
 				  </div>
 
@@ -127,6 +109,7 @@
 				  </a>
 				</div>
 			</section>
+		</div>
 		<!--Experiencia-->
 		  <!-- Title -->
 				<section id="experiencia" class="container">
